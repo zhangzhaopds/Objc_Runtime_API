@@ -15,6 +15,7 @@
 		E2A70A501CE9AAFA001DDFA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A70A4E1CE9AAFA001DDFA2 /* LaunchScreen.storyboard */; };
 		E2A70A5B1CE9AAFA001DDFA2 /* Objc_Runtime_APITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A70A5A1CE9AAFA001DDFA2 /* Objc_Runtime_APITests.m */; };
 		E2A70A661CE9AAFA001DDFA2 /* Objc_Runtime_APIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A70A651CE9AAFA001DDFA2 /* Objc_Runtime_APIUITests.m */; };
+		E2A70A751CE9ABCA001DDFA2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A70A741CE9ABCA001DDFA2 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E2A70A611CE9AAFA001DDFA2 /* Objc_Runtime_APIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Objc_Runtime_APIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2A70A651CE9AAFA001DDFA2 /* Objc_Runtime_APIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objc_Runtime_APIUITests.m; sourceTree = "<group>"; };
 		E2A70A671CE9AAFA001DDFA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2A70A731CE9ABCA001DDFA2 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E2A70A741CE9ABCA001DDFA2 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				E2A70A441CE9AAFA001DDFA2 /* AppDelegate.m */,
 				E2A70A461CE9AAFA001DDFA2 /* ViewController.h */,
 				E2A70A471CE9AAFA001DDFA2 /* ViewController.m */,
+				E2A70A731CE9ABCA001DDFA2 /* Person.h */,
+				E2A70A741CE9ABCA001DDFA2 /* Person.m */,
 				E2A70A491CE9AAFA001DDFA2 /* Main.storyboard */,
 				E2A70A4C1CE9AAFA001DDFA2 /* Assets.xcassets */,
 				E2A70A4E1CE9AAFA001DDFA2 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				E2A70A481CE9AAFA001DDFA2 /* ViewController.m in Sources */,
 				E2A70A451CE9AAFA001DDFA2 /* AppDelegate.m in Sources */,
+				E2A70A751CE9ABCA001DDFA2 /* Person.m in Sources */,
 				E2A70A421CE9AAFA001DDFA2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
